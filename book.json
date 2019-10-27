@@ -17,13 +17,15 @@
 		"epub": "styles/epub.css"
 	},
     "plugins": [
-      "theme-api",
+      "url-embed",
+      "include-codeblock",
+      "ace",
+      "versions-select",
       "copy-code-button",
       "anchor-navigation-ex",
       "disqus",
       "advanced-emoji",
       "favicon",
-      "back-to-top-button",
       "lightbox",
       "hide-element",
       "todo",
@@ -64,19 +66,36 @@
         "theme-api": {
             "theme": "dark"
         },
+        "versions": {
+            "options": [
+                {
+                    "value": "/zh-hans",
+                    "text": "简体中文"
+                },
+                {
+                    "value": "/en",
+                    "text": "English"
+                }
+            ]
+        },
         "chart": {
             "type": "highcharts"
         },
         "hide-element": {
             "elements": [".gitbook-link"]
         },
+		"include-codeblock": {
+    		"template": "ace",
+    		"unindent": true,
+    		"edit": true
+    	},
         "anchor-navigation-ex": {
             "showLevel": false,
             "showGoTop": true
         },
 		"tbfed-pagefooter": {
 			"copyright":"Copyright &copy allpute.com 2019",
-			"modify_label": "发表时间：",
+			"modify_label": "Post time: ",
 			"modify_format": "YYYY-MM-DD HH:mm:ss"
 		},
         "sharing": {
