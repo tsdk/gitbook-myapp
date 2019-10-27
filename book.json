@@ -1,0 +1,138 @@
+{
+    "title": "",
+    "description": "",
+    "author": "",
+    "language": "zh-hans",
+    "root": ".",
+	"links" : {
+		"sidebar" : {
+			"Home" : "#"
+		}
+	},
+	"styles": {
+		"website": "styles/website.css",
+		"ebook": "styles/ebook.css",
+		"pdf": "styles/pdf.css",
+		"mobi": "styles/mobi.css",
+		"epub": "styles/epub.css"
+	},
+    "plugins": [
+      "theme-api",
+      "copy-code-button",
+      "anchor-navigation-ex",
+      "disqus",
+      "advanced-emoji",
+      "favicon",
+      "back-to-top-button",
+      "lightbox",
+      "hide-element",
+      "todo",
+      "splitter",
+      "expandable-chapters",
+      "chapter-fold",
+      "katex",
+      "graph",
+      "mermaid-gb3",
+      "puml",
+      "chart",
+      "tbfed-pagefooter",
+      "-sharing",
+      "sharing-plus",
+      "-lunr",
+      "-search",
+      "search-plus",
+      "fontsettings",
+      "emphasize", 
+      "alerts",
+      "-highlight",
+      "prism",
+      "algolia", 
+      "ga", 
+      "baidu"
+     ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        },
+        "disqus": {
+            "shortName": "gitbookuse"
+        },
+        "theme-api": {
+            "theme": "dark"
+        },
+        "chart": {
+            "type": "highcharts"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": true
+        },
+		"tbfed-pagefooter": {
+			"copyright":"Copyright &copy allpute.com 2019",
+			"modify_label": "发表时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": true,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "instapaper", "linkedin",
+                "pocket", "stumbleupon"
+            ]
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+            ]
+        },
+        "lunr": {
+            "ignoreSpecialCharacters": true
+        },
+        "algolia": {
+            "applicationID": "",
+            "index": "",
+            "publicKey": ""
+        },
+		"ga": {
+			"token": ""
+		},
+        "baidu": {
+            "token": ""
+        }
+     },
+     "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 12,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+     }
+}

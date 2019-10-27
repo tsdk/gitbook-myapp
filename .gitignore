@@ -1,0 +1,10 @@
+CVS/
+.git/
+.svn/
+.idea/
+node_modules/
+.DS_Store
+._*
+_*/
+.*.swp
+package-lock.json
